@@ -33,7 +33,7 @@ micToggle.addEventListener('click', function() {
             track.enabled = isMicActive;
         })
     }
-    micToggle.textContent = isMicActive ? 'Desactivar Cam' : 'Activar Cam'
+    micToggle.textContent = isMicActive ? 'Desactivar Mic' : 'Activar Mic'
 })
 
 
